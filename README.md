@@ -1,1 +1,1 @@
-# Wordpress-custom-theme
+# wordpress starter theme
