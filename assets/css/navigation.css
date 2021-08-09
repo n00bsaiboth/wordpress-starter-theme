@@ -11,7 +11,7 @@ nav div ul li {
 }
   
 nav div ul li a {
-    display: block;
+    display: inline-block;
     color: black;
     text-align: center;
     padding: 14px 16px;
@@ -21,4 +21,19 @@ nav div ul li a {
 nav div ul li a:hover {
     color: white;
     background-color: #333;
+}
+
+@media only screen and (min-width: 33.75em) {  /* 540px */
+    nav div ul li a {
+        display: block;
+
+    }
+}
+
+@media only screen and (min-width: 45em) {  /* 720px */
+
+}
+
+@media only screen and (min-width: 60em) { /* 960px */
+
 }

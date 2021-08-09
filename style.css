@@ -11,3 +11,11 @@
  * License: MIT
  *
  */
+
+ .page-header {
+     text-decoration: none;
+ }
+
+ .page-header:hover {
+     text-decoration: underline;
+ }

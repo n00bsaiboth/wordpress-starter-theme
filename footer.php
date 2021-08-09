@@ -1,7 +1,27 @@
     </section>
 
+    <div>
+        <hr />
+    </div>
+
     <footer>
-        &copy; <?php echo esc_html( date_i18n( __( 'Y', 'blankslate' ) ) ); ?> <?php echo esc_html( get_bloginfo( 'name' ) ); ?>
+       <div class="row">
+        <div class="col-4">
+        <p><i class="fa fa-map-marker"></i> Turku, FIN</p>
+
+        </div>      
+
+        <div class="col-4">
+        <p><i class="fa fa-phone"></i> Phone: +358 41 701 6628</p>
+        
+        </div>   
+
+        <div class="col-4">
+        <p><i class="fa fa-envelope"> </i> Email: jussi.k.jokinen[at]gmail.com</p>
+        
+        </div>   
+
+       </div>
     </footer>
 
 </main>
